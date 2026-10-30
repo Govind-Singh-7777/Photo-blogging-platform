@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body,#root{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(68, 65, 65);
+}
+
+.blog-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.blog-page form{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 240, 234);
+    border: 2px solid black;
+}
+
+.blog-page input{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blog-page button{
+    width: 80px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+
+.blog-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.post-card{
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    color: azure;
+}
+
+.post-card img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
